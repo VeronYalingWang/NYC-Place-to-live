@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1c5ea109eeeac390b689f8490ffdef32 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1c5ea109eeeac390b689f8490ffdef32" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1c5ea109eeeac390b689f8490ffdef32 = L.map(
+                "map_1c5ea109eeeac390b689f8490ffdef32",
+                {
+                    center: [40.7831, -73.9712],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1f44736724576c5d71a05fd8622cbf56 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1c5ea109eeeac390b689f8490ffdef32);
+        
+    
+            var marker_2658435cd99d98f218e031a5c2ba4320 = L.marker(
+                [40.7549, -73.984],
+                {}
+            ).addTo(map_1c5ea109eeeac390b689f8490ffdef32);
+        
+    
+            var icon_da72ddf5fa5980d6d7c645a3bb3436f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2658435cd99d98f218e031a5c2ba4320.setIcon(icon_da72ddf5fa5980d6d7c645a3bb3436f4);
+        
+    
+        var popup_6b97e1b7cb746f8e426f7fe7512f8a97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c13840faf4459fe289f37baab6cef613 = $(`<div id="html_c13840faf4459fe289f37baab6cef613" style="width: 100.0%; height: 100.0%;">Midtown Manhattan</div>`)[0];
+            popup_6b97e1b7cb746f8e426f7fe7512f8a97.setContent(html_c13840faf4459fe289f37baab6cef613);
+        
+
+        marker_2658435cd99d98f218e031a5c2ba4320.bindPopup(popup_6b97e1b7cb746f8e426f7fe7512f8a97)
+        ;
+
+        
+    
+    
+            var marker_f50013b0f370669e587c8929aa6cd2e7 = L.marker(
+                [40.7736, -73.9566],
+                {}
+            ).addTo(map_1c5ea109eeeac390b689f8490ffdef32);
+        
+    
+            var icon_e67975378323f31182dacf764f94aa77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f50013b0f370669e587c8929aa6cd2e7.setIcon(icon_e67975378323f31182dacf764f94aa77);
+        
+    
+        var popup_fd822f29a09dc775d2c59a8cc6a6201c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8fc7e47bdc29ee5e27bc43b44cd64385 = $(`<div id="html_8fc7e47bdc29ee5e27bc43b44cd64385" style="width: 100.0%; height: 100.0%;">Upper East Side</div>`)[0];
+            popup_fd822f29a09dc775d2c59a8cc6a6201c.setContent(html_8fc7e47bdc29ee5e27bc43b44cd64385);
+        
+
+        marker_f50013b0f370669e587c8929aa6cd2e7.bindPopup(popup_fd822f29a09dc775d2c59a8cc6a6201c)
+        ;
+
+        
+    
+    
+            var marker_34544548fb7c0d932f410ab80ff03f64 = L.marker(
+                [40.787, -73.9754],
+                {}
+            ).addTo(map_1c5ea109eeeac390b689f8490ffdef32);
+        
+    
+            var icon_6e86722baaf7914fdb9212f8fa29bb22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_34544548fb7c0d932f410ab80ff03f64.setIcon(icon_6e86722baaf7914fdb9212f8fa29bb22);
+        
+    
+        var popup_7aa1195c5e591594a54f83a16b8202c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_536b889e816fe3a9b746a661da9e67dd = $(`<div id="html_536b889e816fe3a9b746a661da9e67dd" style="width: 100.0%; height: 100.0%;">Upper West Side</div>`)[0];
+            popup_7aa1195c5e591594a54f83a16b8202c5.setContent(html_536b889e816fe3a9b746a661da9e67dd);
+        
+
+        marker_34544548fb7c0d932f410ab80ff03f64.bindPopup(popup_7aa1195c5e591594a54f83a16b8202c5)
+        ;
+
+        
+    
+    
+            var marker_4be051fa01138ccda779c330f75417ec = L.marker(
+                [40.8116, -73.9465],
+                {}
+            ).addTo(map_1c5ea109eeeac390b689f8490ffdef32);
+        
+    
+            var icon_1f1ef07b305d07bf9e3dbc4d4318f3b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4be051fa01138ccda779c330f75417ec.setIcon(icon_1f1ef07b305d07bf9e3dbc4d4318f3b4);
+        
+    
+        var popup_1b56872452bc51a1b9daa5b2a0a14aed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2675179e016b87833a86a60e9ba782a = $(`<div id="html_b2675179e016b87833a86a60e9ba782a" style="width: 100.0%; height: 100.0%;">Harlem</div>`)[0];
+            popup_1b56872452bc51a1b9daa5b2a0a14aed.setContent(html_b2675179e016b87833a86a60e9ba782a);
+        
+
+        marker_4be051fa01138ccda779c330f75417ec.bindPopup(popup_1b56872452bc51a1b9daa5b2a0a14aed)
+        ;
+
+        
+    
+    
+            var marker_57f038ff01a6c42215e61e95ca723f3f = L.marker(
+                [40.7265, -73.9815],
+                {}
+            ).addTo(map_1c5ea109eeeac390b689f8490ffdef32);
+        
+    
+            var icon_6555b9a403ca2564286863ceb6cebaf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_57f038ff01a6c42215e61e95ca723f3f.setIcon(icon_6555b9a403ca2564286863ceb6cebaf3);
+        
+    
+        var popup_90641faa3f19fc45bcde68a783ceb5e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4777cad5200cbf7070884cacd7109885 = $(`<div id="html_4777cad5200cbf7070884cacd7109885" style="width: 100.0%; height: 100.0%;">East Village</div>`)[0];
+            popup_90641faa3f19fc45bcde68a783ceb5e3.setContent(html_4777cad5200cbf7070884cacd7109885);
+        
+
+        marker_57f038ff01a6c42215e61e95ca723f3f.bindPopup(popup_90641faa3f19fc45bcde68a783ceb5e3)
+        ;
+
+        
+    
+    
+            var marker_105560aa34eaaddb3185d72985abca78 = L.marker(
+                [40.7358, -74.0036],
+                {}
+            ).addTo(map_1c5ea109eeeac390b689f8490ffdef32);
+        
+    
+            var icon_e9b443ce6fddd38265a1d3c11fd80232 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_105560aa34eaaddb3185d72985abca78.setIcon(icon_e9b443ce6fddd38265a1d3c11fd80232);
+        
+    
+        var popup_d4aff28787ae9b8fd7c3f3c84f2d4f4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_204b44dac958382ef16fcd69edb7bdaa = $(`<div id="html_204b44dac958382ef16fcd69edb7bdaa" style="width: 100.0%; height: 100.0%;">West Village</div>`)[0];
+            popup_d4aff28787ae9b8fd7c3f3c84f2d4f4d.setContent(html_204b44dac958382ef16fcd69edb7bdaa);
+        
+
+        marker_105560aa34eaaddb3185d72985abca78.bindPopup(popup_d4aff28787ae9b8fd7c3f3c84f2d4f4d)
+        ;
+
+        
+    
+    
+            var marker_302e9c2ea7cc245a4173fbb6f6a66dae = L.marker(
+                [40.715, -73.9843],
+                {}
+            ).addTo(map_1c5ea109eeeac390b689f8490ffdef32);
+        
+    
+            var icon_0f35674f0b1b2ab45a610c13e289a452 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_302e9c2ea7cc245a4173fbb6f6a66dae.setIcon(icon_0f35674f0b1b2ab45a610c13e289a452);
+        
+    
+        var popup_77504b5378560728e86589b2ae6154c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64d25e1c007c7a002aace46bb36499c0 = $(`<div id="html_64d25e1c007c7a002aace46bb36499c0" style="width: 100.0%; height: 100.0%;">Lower East Side</div>`)[0];
+            popup_77504b5378560728e86589b2ae6154c5.setContent(html_64d25e1c007c7a002aace46bb36499c0);
+        
+
+        marker_302e9c2ea7cc245a4173fbb6f6a66dae.bindPopup(popup_77504b5378560728e86589b2ae6154c5)
+        ;
+
+        
+    
+    
+            var marker_fbc2bcd003fa5f4a3fb05710df5ed725 = L.marker(
+                [40.7465, -74.0014],
+                {}
+            ).addTo(map_1c5ea109eeeac390b689f8490ffdef32);
+        
+    
+            var icon_8f41cf37ed366f4372e06359e79c6242 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fbc2bcd003fa5f4a3fb05710df5ed725.setIcon(icon_8f41cf37ed366f4372e06359e79c6242);
+        
+    
+        var popup_6dfcb734371e79a758e6b726d46921dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee01763872273e37c346a4587bea7862 = $(`<div id="html_ee01763872273e37c346a4587bea7862" style="width: 100.0%; height: 100.0%;">Chelsea</div>`)[0];
+            popup_6dfcb734371e79a758e6b726d46921dd.setContent(html_ee01763872273e37c346a4587bea7862);
+        
+
+        marker_fbc2bcd003fa5f4a3fb05710df5ed725.bindPopup(popup_6dfcb734371e79a758e6b726d46921dd)
+        ;
+
+        
+    
+    
+            var marker_68fd48631f57e757139e7e830204b221 = L.marker(
+                [40.7074, -74.0113],
+                {}
+            ).addTo(map_1c5ea109eeeac390b689f8490ffdef32);
+        
+    
+            var icon_0107965ed3da1639940ac41b9a90c53d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_68fd48631f57e757139e7e830204b221.setIcon(icon_0107965ed3da1639940ac41b9a90c53d);
+        
+    
+        var popup_16d356366460a57efa778a157ba3446d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d480ce38bb481534b194cbab9568f538 = $(`<div id="html_d480ce38bb481534b194cbab9568f538" style="width: 100.0%; height: 100.0%;">Financial District</div>`)[0];
+            popup_16d356366460a57efa778a157ba3446d.setContent(html_d480ce38bb481534b194cbab9568f538);
+        
+
+        marker_68fd48631f57e757139e7e830204b221.bindPopup(popup_16d356366460a57efa778a157ba3446d)
+        ;
+
+        
+    
+    
+            var marker_8e6a251d2c36295fe39fa1a91fb370d2 = L.marker(
+                [40.7081, -73.9571],
+                {}
+            ).addTo(map_1c5ea109eeeac390b689f8490ffdef32);
+        
+    
+            var icon_60edfcf3f8656dc115467dd0b86dbc77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8e6a251d2c36295fe39fa1a91fb370d2.setIcon(icon_60edfcf3f8656dc115467dd0b86dbc77);
+        
+    
+        var popup_74afb54c2cfb8dbfb19bd762ffae848a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4eaa62f75835b8623d86f42df1a4d368 = $(`<div id="html_4eaa62f75835b8623d86f42df1a4d368" style="width: 100.0%; height: 100.0%;">Williamsburg, Brooklyn</div>`)[0];
+            popup_74afb54c2cfb8dbfb19bd762ffae848a.setContent(html_4eaa62f75835b8623d86f42df1a4d368);
+        
+
+        marker_8e6a251d2c36295fe39fa1a91fb370d2.bindPopup(popup_74afb54c2cfb8dbfb19bd762ffae848a)
+        ;
+
+        
+    
+    
+            var marker_005c40cee88bc5c49a576a276e2cf8d1 = L.marker(
+                [40.6943, -73.9193],
+                {}
+            ).addTo(map_1c5ea109eeeac390b689f8490ffdef32);
+        
+    
+            var icon_2918ae3039cee5b7a293102927e44525 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_005c40cee88bc5c49a576a276e2cf8d1.setIcon(icon_2918ae3039cee5b7a293102927e44525);
+        
+    
+        var popup_b0670fe9846b3154b98ec4ac540aa0ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_acc3ab6e5757d8a86fb1ef798126419e = $(`<div id="html_acc3ab6e5757d8a86fb1ef798126419e" style="width: 100.0%; height: 100.0%;">Bushwick, Brooklyn</div>`)[0];
+            popup_b0670fe9846b3154b98ec4ac540aa0ac.setContent(html_acc3ab6e5757d8a86fb1ef798126419e);
+        
+
+        marker_005c40cee88bc5c49a576a276e2cf8d1.bindPopup(popup_b0670fe9846b3154b98ec4ac540aa0ac)
+        ;
+
+        
+    
+    
+            var marker_ce7f3ba1a0b0e5d9993c53ca20224250 = L.marker(
+                [40.6872, -73.9418],
+                {}
+            ).addTo(map_1c5ea109eeeac390b689f8490ffdef32);
+        
+    
+            var icon_f19bbf02c3ca0efb133ae057e9dc949c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ce7f3ba1a0b0e5d9993c53ca20224250.setIcon(icon_f19bbf02c3ca0efb133ae057e9dc949c);
+        
+    
+        var popup_5dcd8a92d66543f18cfab90dc2aad790 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0497176f9fc94a6a4e203ef3499092d2 = $(`<div id="html_0497176f9fc94a6a4e203ef3499092d2" style="width: 100.0%; height: 100.0%;">Bed-Stuy, Brooklyn</div>`)[0];
+            popup_5dcd8a92d66543f18cfab90dc2aad790.setContent(html_0497176f9fc94a6a4e203ef3499092d2);
+        
+
+        marker_ce7f3ba1a0b0e5d9993c53ca20224250.bindPopup(popup_5dcd8a92d66543f18cfab90dc2aad790)
+        ;
+
+        
+    
+    
+            var marker_2a52b17b9a546cdac8eeeb3a1f8dab1d = L.marker(
+                [40.672, -73.9823],
+                {}
+            ).addTo(map_1c5ea109eeeac390b689f8490ffdef32);
+        
+    
+            var icon_c698c3a09ecd27f301c5d498461244b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2a52b17b9a546cdac8eeeb3a1f8dab1d.setIcon(icon_c698c3a09ecd27f301c5d498461244b1);
+        
+    
+        var popup_f78c61597fe52ec1ec07fc91013843e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9b5d385794938482130eba2b04f4fc4 = $(`<div id="html_c9b5d385794938482130eba2b04f4fc4" style="width: 100.0%; height: 100.0%;">Park Slope, Brooklyn</div>`)[0];
+            popup_f78c61597fe52ec1ec07fc91013843e6.setContent(html_c9b5d385794938482130eba2b04f4fc4);
+        
+
+        marker_2a52b17b9a546cdac8eeeb3a1f8dab1d.bindPopup(popup_f78c61597fe52ec1ec07fc91013843e6)
+        ;
+
+        
+    
+</script>
+</html>
